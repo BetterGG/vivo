@@ -1,0 +1,118 @@
+/*.sub-header img{*/
+  /*background-size: auto 100%;*/
+  /*width: 100%;*/
+  /*height: 100%;*/
+  /*background-position-x: 50%;*/
+  /*background-position-y: 100%;*/
+/*}*/
+body{
+  background-color: #f7f7f7;
+  overflow-x: hidden;
+}
+.sub-header{
+  width: 1423px;
+  height: 820px;
+}
+.banner{
+  background-image: url(../img/X-series/original.jpg);
+  width: 100%;
+  height: 100%;
+  position: relative;
+  /*-moz-background-size: auto 100%;*/
+  /*-o-background-size: auto 100%;*/
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+}
+.main{
+  overflow: hidden;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+}
+.show-box{
+  /*overflow: inherit;*/
+}
+.small-pics{
+  width: 1200px;
+  background-color: #fff;
+}
+.small-show{
+  display: inline-block;
+  width: 890px;
+  height: 209px;
+  overflow: hidden;
+}
+.show-box{
+  width: 2000px;
+  transition: all .3s linear;
+  position: relative;
+  left: 0;
+}
+.show-box li{
+  /*left: -150px;*/
+  float: left;
+  width: 150px;
+  height: 209px;
+}
+.show-box p{
+  width: 105px;
+  text-align: center;
+  margin-left: 20px;
+}
+.sm-pic{
+  width: 105px;
+  height: 105px;
+  margin: 36px 20px 0 20px;
+}
+.prev{
+  background: url(../img/X-series/to-left.png) no-repeat 55px 60px;
+  background-size:35%;
+}
+.next{
+  background: url(../img/X-series/to-right.png) no-repeat 30px 60px;
+  background-size:35%;
+}
+.prev,.next{
+  width: 150px;
+  height: 209px;
+  display: inline-block;
+  cursor: pointer;
+}
+.single-pro{
+  width: 1200px;
+  overflow: hidden;
+}
+.single-pro div{
+  overflow: hidden;
+  width: 1200px;
+  margin: 40px 0;
+}
+.single-pro img{
+  width: 1200px;
+  height: 600px;
+}
+.orginal img{
+  width: 580px;
+  height: 880px;
+}
+.orginal img:first-child{
+  margin-right: 35px;
+}
+.fit-title{
+  width: 1200px;
+  padding: 40px 0;
+  text-align: center;
+}
+.fit-pic{
+  width: 1200px;
+}
+.fit-pic img{
+  width: 580px;
+  height: 600px;
+  margin: 20px 0;
+}
+.fit-pic img:first-child,
+.fit-pic img:nth-child(3){
+  margin-right: 35px;
+}

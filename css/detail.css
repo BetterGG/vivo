@@ -1,0 +1,737 @@
+.body{
+  background-color: #fff;
+  overflow: hidden;
+}
+.header{
+  background-color: #f4f4f4;
+}
+/************主体********************/
+.main{
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+/******面包屑导航*********/
+.main-nav{
+  width: 1200px;
+  height: 70px;
+}
+.main-nav a{
+  line-height: 70px;
+  font-size: 14px;
+  color: #000;
+}
+.main-nav b{
+  background: url(../img/detail/nav.png) no-repeat -8px -55px;
+  display: inline-block;
+  width: 8px;
+  height: 23px;
+  margin: 0 10px;
+}
+/*********左边 预览图********************/
+.ban-pics{
+  width: 515px;
+  height: 730px;
+  vertical-align: top;
+  display: inline-block;
+}
+.prev-pics{
+  width: 515px;
+  height: 515px;
+  position: relative;
+}
+.prev-pics>li{
+  position: absolute;
+  display: none;
+}
+.prev-pics>li>img{
+  width: 515px;
+  height: 515px;
+}
+.small-pics{
+  width: 416px;
+  height: 90px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.smalls>li{
+  float: left;
+  margin: 0 7px;
+}
+.smalls>li>img{
+  width: 88px;
+  height: 88px;
+  border: 1px solid #ccc;
+  transition: all .3s linear;
+}
+.smalls>li>img:hover{
+  border: 1px solid #000;
+  cursor: pointer;
+}
+.ban-footer{
+  margin-top: 35px;
+  margin-left: 150px;
+}
+.ban-footer a{
+  display: inline-block;
+  height: 19px;
+  margin-right: 35px;
+}
+/*********右边 详情**********/
+.phone-detail{
+  width: 510px;
+  display: inline-block;
+  margin-left: 155px;
+}
+  /***标题****/
+.ph-title{
+  width: 515px;
+}
+.ph-title h1{
+  font-weight: normal;
+  font: 32px "microsoft yahei";
+  color: #000;
+  margin-top: 10px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.ph-title p{
+  display: block;
+  line-height: 24px;
+  margin-top: 14px;
+  font-size: 14px;
+  color: #333;
+}
+  /***价格***/
+.ph-price{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 40px 0 37px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.price{
+  width: 199px;
+  height: 108px;
+  line-height: 108px;
+  font-size: 40px;
+  color: #f51200;
+  border-right: 1px solid #ccc;
+}
+.promotion{
+  width: 290px;
+  padding-left: 35px;
+  position: absolute;
+  left: 200px;
+  top: 37px;
+}
+.pro-ul>li{
+  display: block;
+  margin: 5px 0;
+  font: 16px "方正悠黑简体_纤";
+  position: relative;
+}
+.pro-ul>li span{
+  display: inline-block;
+  width: 38px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #f51200;
+  margin-right: 18px;
+  margin-bottom: 10px;
+}
+.gift{
+  position: relative;
+  top: -10px;
+}
+.gift>span{
+  margin-top: 1px;
+}
+.gift-box{
+  display: inline-block;
+  position: relative;
+  top: 10px;
+}
+.gift img{
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.gift b{
+  color: #999;
+  font-weight: normal;
+}
+.supports{
+  height: 71px;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.sup-detail{
+  width: 438px;
+  padding: 26px;
+  background-color: #fff;
+  box-shadow: 5px 15px 30px rgba(0,0,0,.1) ;
+  position: absolute;
+  left: 30px;
+  top: 40px;
+  display: none;
+}
+.sup-detail span{
+  display: block;
+  margin: 9px 0;
+}
+.sup-detail span:first-child{
+  font-size: 16px;
+}
+.sup-detail span:last-child{
+  font-size: 14px;
+}
+   /*****选择颜色、版本容量********/
+.ph-choices{
+  font: 19px "microsoft yahei";
+}
+.ph-choices dt{
+  width: 508px;
+  height: 22px;
+  margin:20px 0;
+}
+.ph-choices dd{
+  font: 15px "microsoft yahei";
+  display: inline-block;
+  width: 243px;
+  height: 57px;
+  line-height: 57px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-left: 9px;
+  margin-bottom: 15px;
+}
+/*****选择套餐********/
+.package-box dd{
+  width: 158px;
+  height: 93px;
+  border: 1px solid #ccc;
+}
+.package-box dd:nth-child(2){
+  float: left;
+  top: 10px;
+  line-height: 93px;
+  font-size: 18px;
+}
+.package-box dd p:first-child{
+  font-size: 16px;
+  line-height: 25px;
+  margin-top: 20px;
+}
+.package-box dd p:last-child{
+  line-height: 25px;
+  font-size: 14px;
+}
+.package-box dd p:last-child b{
+  font-weight: normal;
+  color:#f51919;
+}
+  /******配件的隐藏框******/
+.fit-box{
+  width: 510px;
+  height: 206px;
+  display: none;
+}
+.show-fit{
+  width: 508px;
+  border: 1px solid #e4e4e4;
+  border-radius: 3px;
+  position: absolute;
+  left: 682px;
+}
+.fit-name{
+  display: inline-block;
+  width: 156px;
+  padding: 0 7px;
+  margin: 40px 0;
+  border-right: 1px solid #ccc;
+}
+.fit-name img{
+  width: 90px;
+  height: 90px;
+  margin-left: 25px;
+}
+.fit-name span{
+  display: block;
+  margin-top: 10px;
+  width: 142px;
+  height: 24px;
+  text-align: center;
+  font-size: 16px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.fit-detail{
+  display: inline-block;
+  width: 156px;
+  padding: 0 7px;
+  position: relative;
+  top: -32px;
+}
+.fit-detail img{
+  width: 65px;
+  height: 65px;
+  margin-left: 31px;
+  cursor: pointer;
+  position: absolute;
+  top: -61px;
+  display: none;
+}
+.fit-detail img.active{
+  display: block;
+}
+.fit-detail span{
+  display: block;
+  width: 128px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 7px;
+  text-overflow: ellipsis;
+}
+.fit-color{
+  position: relative;
+}
+.fit-color b{
+  display: inline-block;
+  margin: 0 3px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+}
+.fit-color b:first-child{
+  background-color: #f51200;
+}
+.fit-color b:last-child{
+  background-color: #000;
+}
+.color-tab{
+  position: absolute;
+}
+.color-circle i{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  position: relative;
+  top: -3px;
+  cursor: pointer;
+}
+.color-circle i:first-child{
+  border: 1px solid #f51200;
+}
+.color-circle i:last-child{
+  border: 1px solid #000;
+}
+  /******服务(可选)*********/
+.service a{
+  font-size: 15px;
+}
+.service-choice{
+  width: 323px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  position: relative;
+  left: 8px;
+  cursor: pointer;
+  margin: 15px 0;
+}
+.service-choice:hover{
+  border: 1px solid #999;
+}
+.service-choice.active{
+  border: 1px solid #000;
+}
+.service-choice>span{
+  display: block;
+  font-size: 15px;
+  line-height: 57px;
+  padding-left: 70px;
+  position: relative;
+}
+.service-choice>span>b{
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  top:18px;
+  left:275px;
+}
+.s-c-prot{
+  background: url(../img/detail/nav.png) no-repeat 0 -30px;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  position: absolute;
+  top: 16px;
+  left: 30px;
+}
+.sc-dir{
+  background: url(../img/detail/nav.png) no-repeat 0 -82px;
+}
+.sc-dir.active{
+  background: url(../img/detail/dir-up.jpg);
+}
+.service-hide{
+  width: 245px;
+  border-top: 1px solid #ccc;
+  margin-left: 37px;
+  display: none;
+}
+.service-hide.active{
+  display: block;
+}
+.service-hide>div{
+  padding-left: 33px;
+  font-size: 15px;
+  line-height: 57px;
+  position: relative;
+}
+.choice-which b{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 18px;
+  left: -7px;
+}
+.sc-box{
+  background: url(../img/detail/nav.png) no-repeat 0 -107px;
+}
+.sc-box.active{
+  background: url(../img/detail/nav.png) no-repeat 0 -131px;
+}
+/*****镭射镌刻服务（可选）******/
+.spec-box>dd{
+  width: 323px;
+}
+.spec-service>span{
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 15px;
+  color: #808080;
+  cursor: pointer;
+}
+.spec-service>span:hover{
+  color: #f51919;
+}
+/*******数量*******/
+.count-change{
+  padding-top: 30px;
+}
+.count-change>label{
+  display: inline-block;
+  width: 60px;
+  height: 55px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.count-change>label:first-child{
+  position: relative;
+  left: 6px;
+  top: -36px;
+}
+.count-change>label:nth-child(3){
+  position: relative;
+  left: -7px;
+  top: -36px;
+}
+.count-change>input{
+  display: inline-block;
+  width: 75px;
+  height: 53px;
+  border: 1px solid #ccc;
+  text-align: center;
+  outline: none;
+  font-size: 19px;
+  position: relative;
+  top:-23px;
+  z-index: 2;
+}
+.count-change>span{
+  display: inline-block;
+  font-size: 15px;
+  color: #808080;
+  position: relative;
+  top: -25px;
+}
+.dec{
+  opacity: .5;
+}
+.dec:after{
+  content: '';
+  width: 38px;
+  height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -15px 0 0 -19px;
+  background: url(https://shopstatic.vivo.com.cn/vivoshop/web/dist/img/prod/prod-detail-icon_41ff7d3.png) no-repeat center -170px;
+}
+.add:after{
+  content: '';
+  width: 38px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -15px 0 0 -19px;
+  background: url(https://shopstatic.vivo.com.cn/vivoshop/web/dist/img/prod/prod-detail-icon_41ff7d3.png) no-repeat center -144px;
+}
+.add{
+  opacity: 1;
+}
+/********分期付款*************/
+.mortgage-choice{
+  margin-bottom: 45px;
+}
+.mortgage-times{
+  display: inline-block;
+  width: 160px;
+  height: 95px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 0 3px;
+}
+.mortgage-times.active{
+  border: 1px solid #000;
+}
+.mortgage-times>p:first-child{
+  font-size: 15px;
+  margin-top: 25px;
+  text-align: center;
+}
+.mortgage-times>p:last-child{
+  font-size: 13px;
+  text-align: center;
+}
+/*****购买******/
+.buy-box{
+  width: 515px;
+  border-top: 1px solid #e4e4e4;
+}
+.buy-box>span:first-child{
+  display: inline-block;
+  width: 128px;
+  height: 24px;
+  font-size: 25px;
+  line-height: 24px;
+  color: #f51200;
+  padding-right: 10px;
+  border-right: 1px solid #ccc;
+}
+.buy-box>span:last-child{
+  display: inline-block;
+  width: 353px;
+  height: 32px;
+  font-size: 16px;
+  line-height: 32px;
+  margin-left: 10px;
+  position: relative;
+  top: 30px;
+}
+.btn{
+  width: 510px;
+  height: 60px;
+  margin: 60px 0 40px 0;
+}
+.default-btn.active{
+  display: none;
+}
+.btn button{
+  width: 170px;
+  height: 46px;
+  font-size: 18px;
+  line-height: 46px;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+}
+.putin-cart{
+  background-color: #ff9536;
+  border: #ff9536;
+  margin: 0 30px 0 5px;
+}
+.putin-cart:hover{
+  background-color: #ffa04b;
+  border: #ffa04b;
+}
+.buy-now,
+.buy-mart{
+  background-color: #f51200;
+  border: 1px solid #f51200;
+}
+.buy-mart:hover,
+.buy-now:hover{
+  background-color: #ff4e4f;
+}
+.buy-mart{
+  margin-left: 5px;
+  position: relative;
+  top:1px;
+  display: none;
+}
+.buy-mart.active{
+  display: block;
+}
+/*********hover 事件****************/
+.ph-choices dd:hover,
+.count-change label:hover,
+.count-change input:hover,
+.mortgage-times:hover{
+  border:1px solid #999;
+  box-shadow:  0 2px 2px rgba(0,0,0,.1);
+  z-index: 200;
+}
+.ph-choices dd.active,
+.count-change label.active,
+.count-change input.active,
+.mortgage-times.active{
+  border:1px solid #000;
+}
+/*************main-dawn 部分*************************/
+.sub-nav{
+  border-top: 1px solid #ccc;
+}
+.sub-nav a{
+  font-size: 17px;
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+  margin: 30px 15px;
+}
+.sub-nav a:first-child{
+  margin-left: 120px;
+}
+.sub-nav a.active{
+  color: #000;
+}
+  /**********第一个 tab，图片展示区*******************/
+.tab-first{
+  display: none;
+}
+.tab-first.active{
+  display: block;
+}
+.tab-first img{
+  width: 1423px;
+}
+  /**********第二个 tab，包装及规格参数*******************/
+.tab-second{
+  width: 1200px;
+  margin: 0 auto;
+  display: none;
+}
+.tab-second.active{
+  display: block;
+}
+.tab-second dl{
+  padding: 50px 0;
+  border-bottom: 1px solid #ccc;
+}
+.tab-second dt{
+  display: inline-block;
+  font-size: 22px;
+  width: 188px;
+  margin-right: 96px;
+  vertical-align: top;
+}
+.tab-second dd{
+  display: inline-block;
+  width: 910px;
+  line-height: 36px;
+  font-size: 16px;
+  color: #333;
+}
+/*********第三个 tab, 评论************/
+.tab-third{
+  width: 1200px;
+  margin: 0 auto;
+  display: none;
+}
+.tab-third.active{
+  display: block;
+}
+.tab-third img{
+  width: 240px;
+  height: 180px;
+  margin-left: 470px;
+  margin-top: 40px;
+}
+.tab-third p{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 200px;
+  font-size: 16px;
+}
+/*********第四个 tab, 售后************/
+.tab-fourth{
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: none;
+}
+.tab-fourth.active{
+  display: block;
+}
+.tab-fourth dl{
+  padding-left: 38px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px dashed #e5e5e5;
+}
+.tab-fourth dt{
+  display: inline-block;
+  width: 116px;
+  height: 116px;
+  margin-right: 30px;
+}
+.saled-f1{
+  background: url(../img/detail/saled-pic.png) no-repeat 0 -400px;
+}
+.saled-f2{
+  background: url(../img/detail/saled-pic.png) no-repeat;
+}
+.saled-f3{
+  background: url(../img/detail/saled-pic.png) no-repeat 0 -264px;
+}
+.saled-f4{
+  background: url(../img/detail/saled-pic.png) no-repeat 0 -132px;
+}
+.saled-f5{
+  background: url(../img/detail/saled-pic.png) no-repeat 0 -533px;
+}
+.tab-fourth dd{
+  display: inline-block;
+  width: 977px;
+  vertical-align: top;
+}
+.tab-fourth dd h1{
+  font-size: 24px;
+  font-weight: 400;
+  padding: 10px 0;
+}
+.tab-fourth dd p{
+  line-height: 24px;
+}
+.tab-fourth dd p a{
+  color: #00aaff;
+}

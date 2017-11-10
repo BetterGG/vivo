@@ -1,0 +1,112 @@
+body{
+  width: 1423px;
+  /*overflow: hidden;*/
+  background-color: #f2f2f2;
+}
+.header-putIn{
+  overflow: hidden;
+}
+.main-head{
+  width: 1423px;
+  height: 143px;
+  background-color: #262626;
+}
+.search-box{
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 33px;
+}
+.input-box{
+  width: 520px;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+}
+.input-box input{
+  width: 500px;
+  height: 36px;
+  border-radius: 50px;
+  background-color: #262626;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding-left: 15px;
+  font-size: 16px;
+}
+.choices{
+  padding-top: 20px;
+}
+.choices a{
+  display: inline-block;
+  font-size: 16px;
+  line-height: 50px;
+  margin: 0 30px;
+  color: #f2efea;
+}
+.choices a.active{
+  color: #00aaff;
+}
+/************内容主体****************/
+.main-body{
+  width: 1200px;
+  margin: 0 auto;
+}
+.searched-ph{
+  width: 850px;
+  margin-top:30px;
+  background-color: #fff;
+}
+.inner-box{
+  width: 850px;
+  padding: 35px;
+}
+.main-body img{
+  width: 200px;
+  height: 200px;
+}
+.get-detail{
+  display: inline-block;
+  width: 560px;
+  vertical-align: top;
+}
+.ph-name{
+  font-size: 30px;
+  line-height: 45px;
+  color: #333;
+}
+.ph-price{
+  color: #f51919;
+  padding: 0 20px;
+  font-size: 20px;
+}
+.ph-detail{
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 1.5px;
+  color: #666;
+}
+.item-button{
+  position: relative;
+  left:380px;
+  top:100px;
+}
+.item-button a{
+  display: inline-block;
+  margin: 0 15px;
+  color: #008cdc;
+}
+.line{
+  border-bottom: 1px solid #008cdc;
+  height: 5px;
+  width: 17px;
+  margin: 0 auto;
+}
+.line.active{
+  width: 100%;
+}
+
+/********** footer ******************/
+.footer{
+  margin-top: 30px;
+}
+

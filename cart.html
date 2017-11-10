@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>vivo-购物车</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/header-second.css">
+  <link rel="stylesheet" href="css/cart.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+<div  class="body">
+  <!-- 头部 -->
+  <div class="header">
+    <div class="header-putIn"></div>
+    <div class="head-commend"></div>
+  </div>
+  <!-- 主体 -->
+  <div class="main">
+    <!-- 空购物车 -->
+    <div class="empty">
+          <img src="img/cart/cart.png" alt="">
+      <p>亲，您的购物车里还没有物品哦，赶紧去<a href="mall.html">逛逛</a>吧</p>
+    </div>
+    <!-- 非空 购物车 -->
+    <div class="has-pros">
+      <p class="my-cart">
+        <span>我的购物车</span>
+        <a href="">继续购物
+          <b> > </b>
+        </a>
+      </p>
+      <div class="box-head">
+        <span class="check-box">
+          <i></i>
+          <a href="javascript:;">全选</a>
+        </span>
+        <span class="pro-name">商品名称</span>
+        <span class="pro-price">价格（元）</span>
+        <span class="pro-count">数量</span>
+        <span class="pro-discount">优惠</span>
+        <span class="pro-score">赠送积分</span>
+        <span class="pro-add">小计（元）</span>
+        <span class="pro-do">操作</span>
+      </div>
+      <div class="box-body">
+        <div class="pro-items">
+          <div class="choose-box">
+            <i></i>
+          </div>
+          <div class="pro-box">
+            <img src="img/cart/prev02.png" alt="">
+            <div class="pro-info">
+              <a href="mall.html">X20 全面屏手机</a>
+              <p>颜色：玫瑰金</p>
+              <div class="pro-service">
+                <p>选择手机服务 <span></span></p>
+              </div>
+            </div>
+            <div class="p-price">2998.00</div>
+            <div class="p-count">
+              <span class="dec"> - </span>
+              <input type="text" maxlength="1" value="1">
+              <span class="add"> + </span>
+            </div>
+            <div class="p-discount">0.00</div>
+            <div class="p-score">2998</div>
+            <div class="p-total">2998.00</div>
+            <div class="p-ope">
+              <p>加入到收藏夹</p>
+              <p>删除</p>
+            </div>
+          </div>
+          <div class="gift-box">
+            <div class="inner-box">
+              <span class="gift-info">【赠品】：</span>
+              <p class="gift-item">
+              <span class="pic-name">
+                <img src="img/cart/video-box.png" alt="">
+                现代蓝牙音箱
+              </span>
+                <span>59.00</span>
+              </p>
+              <span class="gift-info"></span>
+              <p class="gift-item">
+              <span class="pic-name">
+                <img src="img/cart/book.png" alt="">
+                笔记本
+              </span>
+                <span>59.00</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box-foot">
+        <div class="f-checkbox">
+          <i></i>
+        </div>
+        <div class="f-all">全选</div>
+        <div class="f-delete">删除选中的商品</div>
+        <div class="f-tolike">加入收藏夹</div>
+        <div class="f-detail">
+          <p>已选商品 <span class="f-count">0</span> 件，
+            合计（不含运费）：<span class="f-price">￥2048.00</span></p>
+          <p class="price-all">( 商品总价：¥0.00 优惠：-¥0.00 )</p>
+        </div>
+        <div class="buy-btn">
+          <button>去结算</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 尾部 -->
+  <div class="footer"></div>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/header.js"></script>
+</body>
+</html>

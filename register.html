@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>vivo账号注册</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/register.css">
+ </head>
+ <body>
+   <div class="register">
+		 <ul class="register-list">
+			 <li><a>vivo</a></li>
+			 <li>vivo账号注册</li>
+		 </ul>
+
+     <div class="left">
+	   <form id='form1' action="data/register.php" method='post'>
+				<table>
+					<tr>
+						<td>用户名<i>*</i></td>
+						<td><input type="text" class="input" id='uname' name='uname' maxlength=12></td>
+						<td><span>用户名最大长度为12</span></td>
+					</tr>
+					<tr>
+						<td>设置密码<i>*</i></td>
+						<td><input type="password" class="input" id='upwd' name='upwd' maxlength=12></td>
+						<td><span>密码长度为6~16</span></td>
+					</tr>
+					<tr>
+						<td>确认密码<i>*</i></td>
+						<td><input type="password" class="input" id='upwd1' maxlength=12></td>
+						<td><span></span></td>
+					</tr>
+					<tr>
+						<td>电子邮箱<i>*</i></td>
+						<td><input type="email" class="input" id='email' name='email'></td>
+						<td><span></span></td>
+					</tr>
+					<tr>
+						<td>手机号</td>
+						<td><input type="text" class='input' id='phone' name='phone'></td>
+						<td><span>选填</span></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="checkbox" id='box'>我已阅读并接受《vivo服务协议》</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="button" id='btn1' value="同意服务条款并注册" disabled></td>
+					</tr>
+		 		</table>
+			</form>
+		</div>
+   </div>
+
+   <script src="js/jquery.js"></script>
+   <script src="js/register.js"></script>
+
+ </body>
+</html>

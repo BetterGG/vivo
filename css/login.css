@@ -1,0 +1,154 @@
+.all{
+  width: 1423px;
+  height: auto;
+  position: relative;
+  background-color: #f2f2f2;
+}
+.main{
+  width: 1200px;
+  height: 710px;
+  margin: 0 auto;
+  position: relative;
+  font: 14px "Avenir Roman", "Microsoft YaHei", "微软雅黑";
+}
+.bg-pic{
+  width: 1200px;
+  height: 710px;
+  position: absolute;
+}
+.logo{
+  position: absolute;
+  top:0;
+  left: 20px;
+}
+/************** 表单 ***********************/
+.box{
+  width: 420px;
+  height: 486px;
+  position: absolute;
+  background-color: #fff;
+  left: 780px;
+  top: 120px;
+}
+.title{
+  text-align: center;
+  color: #000;
+  margin-top: 25px;
+  font: 24px "Avenir Roman", "Microsoft YaHei", "微软雅黑";
+}
+.input-box{
+  width: 360px;
+  height: 50px;
+  border: 1px solid #e1e1e1;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.uname,.upwd{
+  width: 356px;
+  height: 48px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+.auto-box{
+  width: 360px;
+  height: 28px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.auto{
+  display: inline-block;
+  margin-right: 170px;
+  color: #000;
+}
+.forget-pwd a{
+  color: #000;
+}
+.button{
+  width: 360px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.button button{
+  width: 360px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.login button{
+  background-color: #2899F7;
+  color: #fff;
+}
+.login button:hover{
+  background-color: #40a9ff;
+}
+.register button{
+  background-color: #fff;
+  color: #999999;
+  border: 1px solid #c1c1c1;
+}
+.register button:hover{
+  color: #40a9ff;
+  border: 1px solid #40a9ff;
+}
+.other-ways{
+  width: 420px;
+  height: 12px;
+  margin-top: 20px;
+  font-size: 12px;
+  text-align: center;
+  color: #999999;
+}
+.link-pics{
+  width: 360px;
+  height: 36px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 36px;
+  position: relative;
+}
+.link-pics a{
+  display: inline-block;
+  margin-right: 11px;
+  width: 26px;
+  height: 26px;
+}
+.link-pics a img{
+  width: 26px;
+  height: 26px;
+}
+.hover{
+  float: left;
+  margin-top: -26px;
+}
+/************* footer ***************/
+.footer{
+  width: 1423px;
+  height: 160px;
+  padding-top: 50px;
+  font: 12px "microsoft yahei";
+  background-color: #f7f7f7;
+}
+
+.connection{
+  margin-left: 550px;
+}
+.tel{
+  margin-left: 60px;
+}
+.copyright{
+  text-align: center;
+  margin: 10px 0;
+}
+
+
+
+
+
+

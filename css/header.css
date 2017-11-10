@@ -1,0 +1,169 @@
+/*面包屑 导航*/
+.logo{
+  width: 88px;
+  height: 44px;
+  float: left;
+  margin-left: 110px;
+}
+.head-nav{
+  width: 1423px;
+  position: relative;
+  height: 44px;
+  background-color: #2f2f2f;
+}
+.recoms{
+  margin-bottom: 0;
+}
+.recoms>li{
+  height: 44px;
+  color:#fff;
+  width: 100px;
+  font: 15px "Microsoft YaHei";
+  cursor: pointer;
+  transition: all .3s linear;
+  float: left;
+  line-height: 44px;
+}
+.recoms>li:first-child{
+  margin-left: 170px;
+  width: 122px;
+}
+.recoms:first-child{
+  width: 730px;
+  height: 44px;
+}
+.recom span a:hover{
+  color: #999;
+  transition: all .3s linear;
+}
+.user-info{
+  width: 300px;
+  height: 54px;
+  position: absolute;
+  top: -10px;
+  right: -30px;
+}
+.recoms li:hover{
+  color:darkgrey;
+}
+.recoms a{
+  color: #fff;
+}
+.sev{
+  padding-left: 35px;
+}
+.search{
+  position: absolute;
+  right: 250px;
+  top: 23px;
+  width: 19px;
+  height: 19px;
+  background-image: url(../img/spirit.png);
+  background-position: -116px -50px;
+  cursor: pointer;
+}
+.user{
+  position: absolute;
+  left: 135px;
+  top: 21px;
+  width: 33px;
+  height: 33px;
+  background-image: url(../img/spirit.png);
+  background-position: -116px -85px;
+}
+.user>a{
+  display: inline-block;
+  width: 80px;
+  height: 33px;
+  position: absolute;
+  left: -60px;
+}
+/*隐藏的头部*/
+.hide-head{
+  width: 1423px;
+  height: 180px;
+  position: absolute;
+  top: 44px;
+  float: left;
+  background-color: #2f2f2f;
+  z-index: 10;
+  display: none;
+}
+.xplay-series{
+  width: 110px;
+  position: absolute;
+  left: 368px;
+  z-index: 21;
+  display: none;
+}
+.x-series{
+  width: 110px;
+  position: absolute;
+  left: 490px;
+  z-index: 21;
+  display: none;
+}
+.y-series{
+  width: 110px;
+  position: absolute;
+  left: 590px;
+  /*margin-left: 590px;*/
+  z-index: 21;
+  display: none;
+}
+.xplay-series>li,
+.x-series>li,
+.y-series>li{
+  height: 36px;
+}
+.xplay-series>li>a,
+.x-series>li>a,
+.y-series>li>a{
+  display: block;
+  font: 15px "Microsoft YaHei";
+  color: #fff;
+  line-height: 36px;
+  transition: all .3s linear;
+}
+.xplay-series li a:hover,
+.x-series li a:hover,
+.y-series li a:hover{
+  color: #808080;
+}
+/*用户 隐藏块*/
+.user-hide{
+  width: 1423px;
+  height: 1500px;
+  position: absolute;
+  top: 43px;
+  background-color: #d4d4d4;
+  opacity: .7;
+  z-index: 20;
+  display: none;
+}
+.user-choices{
+  width: 180px;
+  height: 236px;
+  position: absolute;
+  left: -156px;
+  top: 33px;
+  z-index: 21;
+  background-color: #fff;
+  padding-top: 18px;
+  display: none;
+}
+.user-choices li{
+  width: 180px;
+  height: 50px;
+  float: left;
+}
+.user-choices li a{
+  display: block;
+  font: 14px "microsoft yahei";
+  line-height: 50px;
+  padding:0 58px;
+}
+.user-choices li a:hover{
+  background-color: #f2f2f2;
+  color:#00aaff;
+}

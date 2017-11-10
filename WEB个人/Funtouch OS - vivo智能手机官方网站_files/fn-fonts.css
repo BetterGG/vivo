@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/*color*/
+/*breakpoints*/
+/*breakpoints rate*/
+@font-face {
+  font-family: "方正悠黑简体_纤 pro";
+  src: url("fzyhjt_q.ttf");
+  src: url("fzyhjt_q.eot?#font-spider") format("embedded-opentype"), url("fzyhjt_q.woff") format("woff"), url("fzyhjt_q.ttf") format("truetype"), url("fzyhjt_q.svg") format("svg");
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "方正悠黑简体 pro";
+  src: url("fzyhjt.ttf");
+  src: url("fzyhjt.eot?#font-spider") format("embedded-opentype"), url("fzyhjt.woff") format("woff"), url("fzyhjt.ttf") format("truetype"), url("fzyhjt.svg") format("svg");
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Avenir Next pro";
+  src: url("Avenir Next.ttf");
+  src: url("Avenir Next.eot?#font-spider") format("embedded-opentype"), url("Avenir Next.woff") format("woff"), url("Avenir Next.ttf") format("truetype"), url("Avenir Next.svg") format("svg");
+  font-style: normal;
+  font-weight: 200;
+}

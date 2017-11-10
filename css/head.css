@@ -1,0 +1,59 @@
+div.head{
+  width:1404px;
+  margin:0 auto;
+  background-color:#2C2B2E;
+  position:relative;
+}
+ul.head-list>li{
+  width:110px;
+  float:left;
+  margin-top:10px;
+}
+ul.head-list>li:first-child{
+  margin-left:300px;
+}
+ul.head-list>li:nth-child(7){
+  margin-right:90px;
+}
+ul.head-list a{
+  font:14px "微软雅黑";
+  color:#fff;
+  display:block;
+  margin-bottom:15px;
+}
+ul.head-list a:hover{
+  color:#838383;
+}
+.dropdown>.dropdown-btn{
+  margin-bottom:15px;
+}
+.show{width:120px;height:30px;}
+.fade{
+	height:0; opacity:0; overflow:hidden;
+  transition:all .5s linear;
+}
+.in{ height:30px; opacity:1; }
+
+.search,.login{
+  cursor:pointer;
+}
+
+
+/*搜索框部分*/
+
+input{
+  outline:0;
+  border:0;
+  width:700px;
+  height:44px;
+  box-sizing: border-box;
+  position:absolute;
+  left:300px;
+  background-color:#2C2B2E;
+  color:#fff;
+  font:14px "微软雅黑";
+}
+
+.hide{height:0;opacity:0;transition:all .3s linear;}
+.display{height:44px;opacity:1;}
+

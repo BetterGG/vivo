@@ -1,0 +1,42 @@
+
+div.register{
+  width:900px;
+  height:598px;
+  margin:50px auto;
+  background-color:#fff;
+}
+div.register li{
+  width:150px;
+  height:80px;
+  font:20px "simHei";
+  text-align:center;
+}
+div.register a{
+  font:bold 60px "simHei";
+  color:#0093E0;
+}
+.register-list{
+  margin-left:375px;
+
+}
+
+
+div.left .error{color:red;}
+div.left .true{color:green;}
+form{
+  width:500px;
+  margin-left:250px;
+}
+
+table{margin-left:10px;}
+table td{padding:0 0 0 10px;height:50px;}
+.input{width:250px;height:25px;}
+table td>span>a{color:blue;font-size:10px;}
+table td>span>a:hover{color:orange;text-decoration:underline;}
+#btn1{width:250px;height:45px;font-size:17px;background:#2899F7;color:white;border:none;}
+#btn1:hover{background:#40A9FF;cursor:pointer}
+.dd{position:relative;left:120px;}
+.dd img{float:left;margin-right:5px;margin-top:10px;}
+table td>span{text-align:right;color:blue; !important}
+table i{color:red;font-size:15px;}
+	   

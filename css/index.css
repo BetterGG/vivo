@@ -1,0 +1,206 @@
+.main{
+  overflow: hidden;
+  width: 1423px;
+}
+/*2,banner 部分*/
+#banner{
+  width:1423px;
+  height:596px;
+  overflow:hidden;
+  position:relative;
+  margin-bottom:10px;
+}
+#banner>.banner-img{
+  position:absolute;
+  left:0;
+}
+#banner>.banner-img>li{
+  float:left;
+  width:1423px;
+}
+#banner .banner-img img{
+  width:1423px;
+  height:596px;
+}
+#banner a.ck-slide{
+    position:absolute;
+    top:250px;
+    width:35px;
+    height:70px;
+    border-radius:3px;
+    background:#000;
+    opacity:0.15;
+    transition:all .3s linear;
+}
+#banner a.ck-left{
+    left:5px;
+    background: #000 url(../img/index/arrow-left.png) no-repeat center center;
+}
+#banner a.ck-right{
+    right:5px;
+    background:#000 url(../img/index/arrow-right.png) no-repeat center center;
+}
+#banner a.ck-slide:hover{
+    opacity:0.3;
+}
+#banner ul.indicators{
+    position:absolute;
+    bottom:10px;
+    left:50%;
+    margin-left:-34px;
+}
+#banner ul.indicators li{
+    width:12px;
+    height:12px;
+    background:#fff;
+    border-radius:50%;
+    float:left;
+    margin-right:5px;
+    transition:all .2s linear;
+}
+#banner ul.indicators li:hover,#banner ul.indicators li.hover{
+    cursor:pointer;
+    background-color:#0AA1ED;
+}
+
+/*3,图片列表*/
+div.container{
+  display:flex;
+  justify-content:space-between;
+  width:1423px;
+  margin-bottom:50px;
+}
+div.container img{
+  display:block;
+  width:340px;
+}
+
+/*4,1左半部分*/
+ul.list-left{
+  margin:0 0 80px 100px;
+  float:left; 
+  
+}
+ul.list-left>li{
+  width:185px;
+  float:left;
+}
+ul.list-left a{
+  font:14px "微软雅黑";
+  display:block;
+  margin-bottom:10px;
+}
+
+ul.list-left .list-child{
+  display:block;
+  font-weight:bold;
+  margin-bottom:20px;
+}
+/*4.2右半部分*/
+ul.list-right{
+  float:right;
+  margin-right:110px;
+}
+ul.list-right>li{
+  width:250px;
+  height:50px;
+  text-align:right;
+}
+ul.list-right>li:first-child{
+  font:14px "微软雅黑";
+}
+ul.list-right>li:nth-child(2){
+  font:25px "微软雅黑";
+  font-weight:bold;
+}
+ul.list-right span{
+  display:block;
+  width:130px;
+  height:30px;
+  border:1px solid #008CD6;
+  font:bold 16px "微软雅黑";
+  color:#008CD6;
+  padding:5px;
+  text-align:center;
+  line-height:30px;
+  float:right;
+  border-radius:20px;
+}
+
+/*5,横线*/
+div.line{
+  width:1200px;
+  margin:0 auto;
+}
+
+/*6,底部*/
+div.list-bottom{
+  width:1200px;
+  height:50px;
+  text-align:center;
+  margin:30px auto;
+}
+div.list-bottom li{
+  float:left;
+  margin-right:5px;
+}
+div.list-bottom li:nth-child(15){
+  margin-left:232px;
+}
+div.list-bottom li:nth-child(16){
+  margin:0 15px;
+}
+
+/* 点击登录弹出的页面 */
+div.login-list{
+  width:180px;
+  height:230px;
+  background-color:#fff;
+  position:absolute;
+  top:44px;
+  left:1100px;
+  
+}
+div.login-list li{
+  width:130px;
+  height:40px;
+  margin-bottom:10px;
+}
+div.login-list a{
+  font:15px "微软雅黑";
+}
+
+.ul-list{
+  margin:30px 0 0 35px;
+}
+div.login-list.fade{height:0;opacity:0;transition:all .3s linear;}
+div.login-list.in{height:230px;opacity:1;}
+
+/* 鼠标悬停在关注vivo 所弹出的页面*/
+.text{position:relative;}
+
+div.vivo-list{
+  width:150px;
+  height:200px;
+  background-color:#fff;
+  position:absolute;
+  top:100px;
+  left:1050px;
+  display:none;
+}
+div.vivo-list li{
+  width:150px;
+  height:40px;
+  margin-bottom:10px;
+  line-height:40px;
+}
+div.vivo-list li:hover{background-color:#F4F4F4;}
+div.vivo-list a{
+  font:15px "微软雅黑";
+  margin-left:30px;
+}
+
+.v-list{
+  margin-top:32px;
+}
+

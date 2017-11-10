@@ -1,0 +1,328 @@
+.body{
+  background-color: #f2f2f2;
+}
+.header{
+  overflow: hidden;
+}
+.main{
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/************ 空购物车 ***********************/
+.empty{
+  width: 1200px;
+  padding: 50px 0 150px 0;
+  display: none;
+}
+.empty img{
+  width: 215px;
+  height: 164px;
+  margin-left: 500px;
+}
+.empty p{
+  font-size: 14px;
+  text-align: center;
+  margin-top: 50px;
+}
+.empty p a{
+  color: #00aaff;
+}
+/************ 购物车及商品 *********************/
+.has-pros{
+  margin-bottom: 100px;
+}
+.my-cart{
+  width: 1200px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.my-cart span{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 66px;
+  margin-left: 550px;
+}
+.my-cart a{
+  float: right;
+  color: #333;
+  font-size: 14px;
+  margin-top: 25px;
+  margin-right: 30px;
+}
+.my-cart a b{
+   font-family: \5b8b\4f53;
+   font-weight: 700;
+   color: #333;
+   font-size: 16px;
+   display: inline-block;
+   margin-left: 4px;
+   margin-bottom: 3px;
+}
+.my-cart a:hover{
+  color: #f51200;
+}
+/********** 表格 *************/
+.box-head{
+  font-size: 14px;
+  line-height: 64px;
+  font-weight: 400;
+  color: #333;
+  background-color: #fff;
+  border-bottom: 1px solid #f2f2f2;
+}
+.check-box i{
+  position: relative;
+  left: 30px;
+  top: 6px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/cart/detail.png) no-repeat -10px -205px;
+}
+.check-box a{
+  color: #333;
+  padding-left: 40px;
+}
+.pro-name{
+  padding-left: 200px;
+}
+.pro-price{
+  padding-left: 140px;
+}
+.pro-count,
+.pro-discount,
+.pro-score,
+.pro-add{
+  padding-left: 70px;
+}
+.pro-do{
+  padding-left: 60px;
+}
+/*****主体*******/
+.box-body{
+  background-color: #fff;
+  width: 1200px;
+}
+.pro-items{
+  width: 1200px;
+  border-bottom: 2px solid #f2f2f2;
+}
+.choose-box{
+  display: inline-block;
+  width: 80px;
+  height: 145px;
+  position: relative;
+  top: -47px;
+}
+.choose-box i{
+  position: relative;
+  left: 30px;
+  top: 60px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/cart/detail.png) no-repeat -10px -205px;
+}
+.pro-box{
+  display: inline-block;
+  width: 1115px;
+  height: 145px;
+  /*margin-left: 80px;*/
+}
+.pro-box img{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border: 1px solid #f2f2f2;
+}
+.pro-box div{
+  display: inline-block;
+  vertical-align: middle;
+}
+.pro-info{
+  display: inline-block;
+  margin-left: 20px;
+  padding: 30px 0;
+  color: #333;
+}
+.pro-info a{
+  color: #333;
+  vertical-align: bottom;
+}
+.pro-info a:hover{
+  color: #f51200;
+}
+.pro-service p{
+  padding-top: 10px;
+}
+.pro-service p:hover{
+  color: #f51200;
+  cursor: pointer;
+}
+.pro-service span{
+  display: inline-block;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+.p-price{
+  padding-left: 189px;
+}
+.p-count{
+  padding-left: 40px;
+}
+.p-count span{
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #e4e4e4;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+}
+.p-count input{
+  text-align: center;
+  width: 36px;
+  height: 30px;
+  outline: none;
+  border: 1px solid #e4e4e4;
+  position: relative;
+  top: -1px;
+}
+.p-count .dec{
+  position: relative;
+  right: -5px;
+}
+.p-count .add{
+  position: relative;
+  left: -6px;
+}
+.p-discount{
+  padding-left: 28px;
+}
+.p-score{
+  padding-left: 75px;
+}
+.p-total{
+  padding-left: 90px;
+  color: #f51200;
+}
+.p-ope{
+  width: 155px;
+  padding-left: 25px;
+  text-align: center;
+}
+.p-ope p{
+  cursor: pointer;
+  width: 120px;
+}
+.p-ope p:hover{
+  color: #f51200;
+}
+/******* 赠品区************/
+.gift-box{
+  width: 1200px;
+  /*padding-bottom: 20px;*/
+  color: #333;
+}
+.inner-box{
+  display: inline-block;
+  width: 1060px;
+  background-color: #f7f5f5;
+  line-height: 46px;
+  margin-left: 85px;
+  padding-left: 25px;
+  position: relative;
+  top: -35px;
+}
+.gift-item{
+  display: inline-block;
+  width: 940px;
+}
+.gift-box span{
+  display: inline-block;
+}
+.gift-info{
+  width: 70px;
+}
+.gift-item .pic-name{
+  width: 320px;
+}
+.gift-item .pic-name img{
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  position: relative;
+  top: -10px;
+}
+/************ box-foot 区域********************/
+.box-foot{
+  width: 1200px;
+  padding-left: 30px;
+  font-size: 16px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+.box-foot div{
+  display: inline-block;
+  line-height: 98px;
+  vertical-align: middle;
+}
+.f-checkbox i{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  padding-left: 20px;
+  background: url(../img/cart/detail.png) no-repeat -10px -205px;
+}
+.f-all,
+.f-delete,
+.f-tolike{
+  margin-right: 30px;
+}
+.f-detail{
+  vertical-align: middle;
+}
+.f-detail p{
+  font-size: 14px;
+  width: 580px;
+  height: 36px;
+  line-height: 36px;
+  text-align: right;
+}
+.f-count{
+  color: #f51200;
+}
+.f-price{
+  font-size: 26px;
+  color: #f51200;
+}
+.price-all{
+  color: #666;
+}
+.buy-btn{
+  margin-left: 20px;
+}
+.buy-btn button{
+  display: inline-block;
+  width: 160px;
+  height: 46px;
+  background-color: #f51200;
+  color: #fff;
+  border: 1px solid #f51200;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.buy-btn button:hover{
+  background-color: #ff4e4f;
+}
+
+
+
+
+

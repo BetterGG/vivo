@@ -1,0 +1,98 @@
+.head-commend{
+  height: 132px;
+}
+.head-commend{
+  position: relative;
+  margin-top: 0;
+}
+.nav-pills li{
+  margin:0 30px;
+  line-height: 44px;
+  /*color:#fff;*/
+  font: 15px "Microsoft YaHei";
+  cursor: pointer;
+  transition: all .3s linear;
+  float: left;
+  margin-top: 12px;
+  color:#001122;
+}
+.nav-pills{
+  position: absolute;
+  left: 450px;
+  top: 80px;
+}
+.nav-pills span{
+  display: inline-block;
+  width:20px;
+  height: 20px;
+}
+.nav-pills li:first-child span{
+  position: absolute;
+  top: 12px;
+  left: 5px;
+  background-image: url(../img/spirit.png);
+  background-position:  0 -47px;
+}
+.nav-pills li:nth-child(2) span{
+  position: absolute;
+  top: 12px;
+  left: 125px;
+  background-image: url(../img/spirit.png);
+  background-position:  -36px -48px;
+}
+.nav-pills li:nth-child(3) span{
+  position: absolute;
+  top: 12px;
+  left: 250px;
+  background-image: url(../img/spirit.png);
+  background-position:  -36px -11px;
+}
+.nav-pills li:nth-child(4) span{
+  position: absolute;
+  top: 12px;
+  left: 385px;
+  background-image: url(../img/spirit.png);
+  background-position:  -73px -11px;
+}
+.help-service{
+  position: absolute;
+  left: 1100px;
+  margin-left: 40px;
+  font: 14px "Microsoft YaHei";
+  cursor: pointer;
+  transition: all .3s linear;
+  margin-top: 12px;
+}
+.help-service li{
+  float: left;
+  margin-top: 80px;
+  margin-right: 50px;
+}
+.help-service li:first-child span{
+  display: inline-block;
+  width: 16px;
+  height: 18px;
+  background-image: url(../img/q-mark.png);
+  position: absolute;
+  left:-20px;
+}
+.help-service li:last-child span{
+  display: inline-block;
+  width: 20px;
+  height: 17px;
+  background-image: url(../img/cart-small.png);
+  position: absolute;
+  left:82px;
+}
+/*“官方商城”*/
+.spirit{
+  position: absolute;
+  top: 20px;
+  left: 620px;
+  /*margin: 0 auto;*/
+  display: block;
+  width: 180px;
+  height: 55px;
+  background-image: url(../img/spirit.png);
+  background-position: 180px 55px;
+}
